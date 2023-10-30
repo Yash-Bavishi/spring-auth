@@ -24,12 +24,12 @@ public class SecurityConfig {
     @Bean
     //authentication
     public UserDetailsService userDetailsService() {
-//        UserDetails admin = User.withUsername("Basant")
-//                .password(encoder.encode("Pwd1"))
+//        UserDetails admin = User.withUsername("admin")
+//                .password(encoder.encode("admin"))
 //                .roles("ADMIN")
 //                .build();
-//        UserDetails user = User.withUsername("John")
-//                .password(encoder.encode("Pwd2"))
+//        UserDetails user = User.withUsername("user")
+//                .password(encoder.encode("admin"))
 //                .roles("USER","ADMIN","HR")
 //                .build();
 //        return new InMemoryUserDetailsManager(admin, user);
